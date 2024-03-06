@@ -45,6 +45,38 @@
     </div>
   </nav>
 
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label"><b>Full name</b></label>
+      <input type="text" class="form-control" id="name" style="width: 500px;"></p>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label"><b>Email address</b></label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        style="width: 500px;">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="name" class="form-label"><b>Reason for contacting us:</b></label>
+      <select id="cars" class="btn btn-secondary dropdown-toggle ms-3"
+        style="background-color: rgb(255, 255, 255);color: black; text-align: center; width: 250px;">
+        <option value="billing" selected style=" text-align: left;">Billing</option>
+        <option value="techsupport" style=" text-align: left;">Technical Support</option>
+        <option value="feedback" style=" text-align: left;">Complaints and Feedback</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <div class="mb-3">
+        <textarea name="message" id="message" cols="65" rows="10" style="resize: none;"></textarea>
+      </div>
+      </p>
+    </div>
+    <div class="mb-3 form-check">
+      <button type="reset" class="btn btn-secondary me-3">RESET</button>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
 </body>
 
 </html>
